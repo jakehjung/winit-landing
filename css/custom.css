@@ -1,0 +1,262 @@
+/* ----------------------------------------------------------- */
+/*  MEDIA QUERIES SETTINGS
+/* ----------------------------------------------------------- */
+/* END */
+/* GLOBAL */
+/* line 45, ../sass/custom.scss */
+body {
+  padding: 10px;
+  font-family: 'Raleway', sans-serif;
+  color: black !important;
+}
+
+/* line 50, ../sass/custom.scss */
+p {
+  font-weight: 200;
+  font-size: 15px;
+}
+
+@font-face {
+  font-family: nexabold;
+  src: url(fonts/nexa-bold.oft);
+}
+@media (max-width: 768px) {
+  /* line 58, ../sass/custom.scss */
+  section {
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  /* line 63, ../sass/custom.scss */
+  .col-md-6, .col-md-12, .col-xs-12 {
+    padding-bottom: 30px;
+  }
+}
+
+/* END GLOBAL */
+/* line 70, ../sass/custom.scss */
+nav {
+  margin-top: 10px;
+}
+
+/* line 74, ../sass/custom.scss */
+.navbar-default.affix {
+  margin-top: 0px;
+}
+
+/* line 78, ../sass/custom.scss */
+.navbar-default .navbar-header .navbar-brand {
+  color: white;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  /* line 78, ../sass/custom.scss */
+  .navbar-default .navbar-header .navbar-brand {
+    color: red;
+  }
+}
+
+/* line 86, ../sass/custom.scss */
+.navbar-default .nav > li > a, .navbar-default .nav > li > a:focus {
+  color: white;
+  font-weight: bold;
+}
+
+/* line 90, ../sass/custom.scss */
+.navbar-default .nav > li.active > a, .navbar-default .nav > li.active > a:focus {
+  color: red !important;
+}
+
+/* line 93, ../sass/custom.scss */
+.navbar-default.affix .nav > li > a, .navbar-default.affix .nav > li > a:focus {
+  color: black;
+}
+/* line 95, ../sass/custom.scss */
+.navbar-default.affix .nav > li > a:hover, .navbar-default.affix .nav > li > a:focus:hover {
+  color: black;
+}
+
+/* line 100, ../sass/custom.scss */
+.navbar-default.affix .navbar-header .navbar-brand {
+  color: red;
+  font-weight: bold;
+}
+/* line 103, ../sass/custom.scss */
+.navbar-default.affix .navbar-header .navbar-brand:hover {
+  color: red;
+}
+
+/* line 109, ../sass/custom.scss */
+.header-content-inner h1 {
+  font-weight: bold;
+  font-family: raleway;
+  font-size: 80px !important;
+  margin-left: -4px;
+}
+/* line 115, ../sass/custom.scss */
+.header-content-inner h2 {
+  margin-top: -30px;
+  font-family: raleway;
+}
+
+/* line 121, ../sass/custom.scss */
+header {
+  background: red;
+  border-bottom: 10px solid white;
+}
+
+/* line 127, ../sass/custom.scss */
+.we-are-trisquare h1 {
+  font-size: 55px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: raleway;
+  margin-bottom: 0px;
+}
+/* line 134, ../sass/custom.scss */
+.we-are-trisquare h3 {
+  color: red;
+  font-weight: bold;
+  font-family: raleway;
+  margin-top: 1px;
+  font-size: 55px;
+}
+@media (max-width: 768px) {
+  /* line 126, ../sass/custom.scss */
+  .we-are-trisquare {
+    display: none;
+  }
+}
+
+/* line 146, ../sass/custom.scss */
+.about-below {
+  margin-top: 50px;
+}
+/* line 148, ../sass/custom.scss */
+.about-below .about-left {
+  text-align: right;
+}
+@media (max-width: 768px) {
+  /* line 148, ../sass/custom.scss */
+  .about-below .about-left {
+    text-align: center;
+  }
+}
+/* line 154, ../sass/custom.scss */
+.about-below .about-right {
+  text-align: left;
+}
+/* line 156, ../sass/custom.scss */
+.about-below .about-right h3 {
+  font-weight: bold;
+}
+/* line 160, ../sass/custom.scss */
+.about-below h2 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+@media (max-width: 768px) {
+  /* line 160, ../sass/custom.scss */
+  .about-below h2 {
+    font-size: 40px;
+  }
+}
+/* line 167, ../sass/custom.scss */
+.about-below .about-bottom-p {
+  font-size: 40px;
+  line-height: 43px;
+  color: red;
+}
+@media (max-width: 768px) {
+  /* line 167, ../sass/custom.scss */
+  .about-below .about-bottom-p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+/* line 178, ../sass/custom.scss */
+.full-row {
+  background: red;
+  margin-left: -10px;
+  margin-right: -10px;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/* line 185, ../sass/custom.scss */
+.full-row h2 {
+  font-family: raleway;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* line 193, ../sass/custom.scss */
+.btn-ts {
+  color: black;
+  font-weight: bold;
+  font-family: raleway;
+  padding: 0px;
+}
+/* line 198, ../sass/custom.scss */
+.btn-ts:hover {
+  color: red;
+}
+
+/* line 203, ../sass/custom.scss */
+.bio-name {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 3px;
+  font-size: 17px;
+}
+
+/* line 209, ../sass/custom.scss */
+.bio-title {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 3px;
+}
+
+/* line 215, ../sass/custom.scss */
+.contact {
+  border: 10px solid red;
+  margin-bottom: 50px;
+}
+
+/* line 221, ../sass/custom.scss */
+.animateBounce:hover {
+  -webkit-animation: bounce 1s infinite;
+  animation: bounce 1s infinite;
+}
+
+/* line 228, ../sass/custom.scss */
+.animatePulse:hover {
+  -webkit-animation: pulse 1s infinite;
+  animation: pulse 1s infinite;
+}
+
+/* line 235, ../sass/custom.scss */
+.animateBand:hover {
+  -webkit-animation: rubberBand 1s infinite;
+  animation: rubberBand 1s infinite;
+}
+
+/* line 242, ../sass/custom.scss */
+.animateShake:hover {
+  -webkit-animation: shake 1s infinite;
+  animation: shake 1s infinite;
+}
+
+/* line 250, ../sass/custom.scss */
+#particles-js {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  background-color: transparent !important;
+}
